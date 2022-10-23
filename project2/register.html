@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+    <meta name="author" content="" />
+
+    <!-- Font Awesome -->
+    <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/login-page.css" />
+  </head>
+  <body>
+    <header class="ScriptHeader"></header>
+
+    <section>
+      <div class="rt-container">
+        <div class="col-rt-12">
+          <div class="Scriptcontent">
+            <form class="form" method="get" action="register_successful.html">
+              <div class="form-title">
+                <div class="user-icon gr-bg">
+                  <i class="fa fa-user"></i>
+                </div>
+                <h2>Create account</h2>
+              </div>
+              <label for="fname"
+                ><i class="fa fa-envelope"></i> First Name:</label
+              >
+              <input
+                type="text"
+                id="fname"
+                class="cm-input"
+                placeholder="Enter your First Name"
+                required
+              />
+
+              <label for="lname"><i class="fa fa-lock"></i> Last Name:</label>
+              <input
+                id="lname"
+                type="text"
+                class="cm-input"
+                placeholder="Enter your Last Name"
+                required
+              />
+              <label for="phone"
+                ><i class="fa fa-envelope"></i> Phone No:</label
+              >
+              <input
+                type="tel"
+                id="phone"
+                class="cm-input"
+                placeholder="Enter your Phone Number"
+                required
+              />
+              <label for="email"><i class="fa fa-envelope"></i> Email:</label>
+              <input
+                type="email"
+                id="email"
+                class="cm-input"
+                placeholder="Enter your email adress"
+                required
+              />
+              <label for="gender"><i class="fa fa-lock"></i> Gender:</label>
+
+              <select class="cm-input" name="gender" id="gender">
+                <option value="select">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="pnottosay">Prefer not to say</option>
+              </select>
+              <label for="dob"
+                ><i class="fa fa-envelope"></i> Date of Birth:</label
+              >
+              <input type="date" id="date" class="cm-input" />
+              <label for="fcolour"
+                ><i class="fa fa-lock"></i> Favourite Colour:</label
+              >
+              <input id="color" type="color" class="cm-input" />
+
+              <label for="pass"><i class="fa fa-lock"></i> Password:</label>
+              <input
+                id="pass"
+                type="password"
+                class="cm-input"
+                placeholder="Enter your password"
+                required
+              />
+              <label for="pass"
+                ><i class="fa fa-lock"></i> Confirm Password:</label
+              >
+              <input
+                id="pass"
+                type="password"
+                class="cm-input"
+                placeholder="Confirm your password"
+                required
+              />
+              <h6>
+                By creating an account you agree to our
+                <a href="#"><i class="fa fa-lock"></i>Terms & Privacy</a>
+              </h6>
+              <br />
+              <button type="submit" class="btn-login gr-bg">Register</button>
+              <div class="form-title">
+                <h6>
+                  <i class="fa fa-envelope"></i> Already have an account?:
+                  <a href="index.html">Login Here</a>
+                </h6>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
